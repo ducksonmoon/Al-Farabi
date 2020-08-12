@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## Al-Farabi
 
-You can use the [editor on GitHub](https://github.com/M-b850/Al-Farabi/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+![Image](http://s10.picofile.com/file/8405505434/repository_open_graph_template.jpg)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+al-Farabi is a management system use for Iranian University Journal, written in Django. 
+The point of this is managing staff and manage articles that want to be published
+and this send all the articles, posts , or ...
+also it's useful for graphic designers. 
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### TODO
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
+[] Start
 
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### License
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/M-b850/Al-Farabi/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Al-Farabi is released under the [MIT license.](https://github.com/M-b850/Al-Farabi/blob/master/LICENSE)

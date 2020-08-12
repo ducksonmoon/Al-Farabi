@@ -10,7 +10,10 @@ also it's useful for graphic designers.
 
 ### TODO
 ```todo
-- [ ] Start
+- [x] Start
+- [ ] Post model
+- [ ] Article model -->  upload articles ablity
+- [ ] (Graphics things) model --> upload photos ablity
 ```
 ### License
 

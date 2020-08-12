@@ -12,12 +12,6 @@ also it's useful for graphic designers.
 
 [] Start
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-
 ### License
 
 Al-Farabi is released under the [MIT license.](https://github.com/M-b850/Al-Farabi/blob/master/LICENSE)

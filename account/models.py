@@ -11,6 +11,4 @@ class Team(models.Model):
 
 
 class Account(AbstractUser):
-	name = models.CharField(max_length=255)
-	last_name = models.CharField(max_length=255)
 	team = models.ForeignKey(Team, null=True, on_delete=models.CASCADE)

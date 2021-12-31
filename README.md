@@ -11,9 +11,7 @@ Al-Farabi is a management system used by the Iranian University Journal, created
 ### TODO
 ```todo
 - [x] Start
-- [x] Post model
-- [ ] Article model -->  upload articles ablity
-- [ ] (Graphics things) model --> upload photos ablity
+
 ```
 ### License
 

@@ -1,0 +1,36 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block content %}
+    <div class="modal modal-signin position-static d-block py-5" style="background-color: #F1F0F4;" tabindex="-1" role="dialog" id="modalSignin">
+        <div class="modal-dialog" role="document" dir="rtl">
+          <div class="modal-content rounded-5 shadow">
+            <div class="modal-header p-5 pb-4 border-bottom-0">
+              <h2 class="fw-bold mb-0">اطلاعات دانشگاه</h2>
+            </div>
+            <div class="modal-body p-5 pt-0">
+              <form class="" method="post">
+                {% csrf_token %}
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control rounded-4" name="name" id="id_name" placeholder="علم و فناوری مازندران">
+                  <label for="name">Name</label>
+                  <small class="text-muted">نمونه: علم و فناوری مازندران</small>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control rounded-4" name="symbol_name" id="id_symbol_name" placeholder="علم و فناوری مازندران">
+                    <label for="id_symbol_name">Symbol</label>
+                    <small class="text-muted">نمونه: MAZUST</small>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="file" class="form-control rounded-4" name="logo" id="id_logo">
+                    <label for="id_logo">Logo</label>
+                    <small class="text-muted">لوگو مرتبط به دانشگاه را انتخاب کنید.</small>
+                </div>
+                <button class="w-100 mb-2 btn btn-lg rounded-4 btn-primary" type="submit" id="submit" name="submit">ساخت حساب</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+{% endblock %}

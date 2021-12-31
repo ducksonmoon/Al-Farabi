@@ -5,7 +5,7 @@ from django.db import models
 class University(models.Model):
 	name = models.CharField(max_length=225)
 	symbol_name = models.CharField(max_length=225)
-	logo = models.ImageField(upload_to='university_logo')
+	logo = models.ImageField(upload_to='university_logo/', blank=True)
 
 
 class Team(models.Model):
